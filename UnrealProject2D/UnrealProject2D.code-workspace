@@ -1,0 +1,613 @@
+{
+	"folders": [
+		{
+			"name": "UnrealProject2D",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "E:\\UnrealEngine\\UE_5.3"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "UnrealProject2D Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnrealProject2D",
+					"Win64",
+					"Debug",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2D Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnrealProject2D",
+					"Win64",
+					"Debug",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"UnrealProject2D Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2D Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"UnrealProject2D",
+					"Win64",
+					"Debug",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2D Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnrealProject2D",
+					"Win64",
+					"DebugGame",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2D Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnrealProject2D",
+					"Win64",
+					"DebugGame",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"UnrealProject2D Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2D Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"UnrealProject2D",
+					"Win64",
+					"DebugGame",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2D Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnrealProject2D",
+					"Win64",
+					"Development",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2D Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnrealProject2D",
+					"Win64",
+					"Development",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"UnrealProject2D Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2D Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"UnrealProject2D",
+					"Win64",
+					"Development",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2D Win64 Test Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnrealProject2D",
+					"Win64",
+					"Test",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2D Win64 Test Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnrealProject2D",
+					"Win64",
+					"Test",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"UnrealProject2D Win64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2D Win64 Test Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"UnrealProject2D",
+					"Win64",
+					"Test",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2D Win64 Shipping Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnrealProject2D",
+					"Win64",
+					"Shipping",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2D Win64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnrealProject2D",
+					"Win64",
+					"Shipping",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"UnrealProject2D Win64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2D Win64 Shipping Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"UnrealProject2D",
+					"Win64",
+					"Shipping",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2DEditor Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnrealProject2DEditor",
+					"Win64",
+					"Debug",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2DEditor Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnrealProject2DEditor",
+					"Win64",
+					"Debug",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"UnrealProject2DEditor Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2DEditor Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"UnrealProject2DEditor",
+					"Win64",
+					"Debug",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2DEditor Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnrealProject2DEditor",
+					"Win64",
+					"DebugGame",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2DEditor Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnrealProject2DEditor",
+					"Win64",
+					"DebugGame",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"UnrealProject2DEditor Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2DEditor Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"UnrealProject2DEditor",
+					"Win64",
+					"DebugGame",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2DEditor Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnrealProject2DEditor",
+					"Win64",
+					"Development",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2DEditor Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnrealProject2DEditor",
+					"Win64",
+					"Development",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"UnrealProject2DEditor Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnrealProject2DEditor Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"UnrealProject2DEditor",
+					"Win64",
+					"Development",
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "E:\\UnrealEngine\\UE_5.3"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch UnrealProject2D (Debug)",
+				"request": "launch",
+				"program": "E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+				"preLaunchTask": "UnrealProject2D Win64 Debug Build",
+				"args": [
+				],
+				"cwd": "E:\\UnrealEngine\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "E:\\UnrealEngine\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch UnrealProject2D (DebugGame)",
+				"request": "launch",
+				"program": "E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+				"preLaunchTask": "UnrealProject2D Win64 DebugGame Build",
+				"args": [
+				],
+				"cwd": "E:\\UnrealEngine\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "E:\\UnrealEngine\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch UnrealProject2D (Development)",
+				"request": "launch",
+				"program": "E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\Binaries\\Win64\\UnrealGame.exe",
+				"preLaunchTask": "UnrealProject2D Win64 Development Build",
+				"args": [
+				],
+				"cwd": "E:\\UnrealEngine\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "E:\\UnrealEngine\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch UnrealProject2D (Test)",
+				"request": "launch",
+				"program": "E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+				"preLaunchTask": "UnrealProject2D Win64 Test Build",
+				"args": [
+				],
+				"cwd": "E:\\UnrealEngine\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "E:\\UnrealEngine\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch UnrealProject2D (Shipping)",
+				"request": "launch",
+				"program": "E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+				"preLaunchTask": "UnrealProject2D Win64 Shipping Build",
+				"args": [
+				],
+				"cwd": "E:\\UnrealEngine\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "E:\\UnrealEngine\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch UnrealProject2DEditor (Debug)",
+				"request": "launch",
+				"program": "E:\\UnrealEngine\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+				"preLaunchTask": "UnrealProject2DEditor Win64 Debug Build",
+				"args": [
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject"
+				],
+				"cwd": "E:\\UnrealEngine\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "E:\\UnrealEngine\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch UnrealProject2DEditor (DebugGame)",
+				"request": "launch",
+				"program": "E:\\UnrealEngine\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+				"preLaunchTask": "UnrealProject2DEditor Win64 DebugGame Build",
+				"args": [
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject"
+				],
+				"cwd": "E:\\UnrealEngine\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "E:\\UnrealEngine\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch UnrealProject2DEditor (Development)",
+				"request": "launch",
+				"program": "E:\\UnrealEngine\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+				"preLaunchTask": "UnrealProject2DEditor Win64 Development Build",
+				"args": [
+					"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject"
+				],
+				"cwd": "E:\\UnrealEngine\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "E:\\UnrealEngine\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "E:\\UnrealEngine\\UE_5.3"
+				}
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Win64 Development Build",
+				"program": "E:\\UnrealEngine\\UE_5.3\\Engine\\Build\\BatchFiles\\RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\UnrealProject2D.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"console": "externalTerminal",
+				"stopAtEntry": false,
+				"cwd": "E:\\UnrealEngine\\UE_5.3"
+			}
+		]
+	}
+}

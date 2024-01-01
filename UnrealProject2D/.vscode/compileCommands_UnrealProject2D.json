@@ -1,0 +1,26 @@
+[
+	{
+		"file": "E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\Source\\UnrealProject2D\\UnrealProject2D.Build.cs",
+		"arguments": [
+			"E:\\Visual3\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\.vscode\\compileCommands_UnrealProject2D\\UnrealProject2D.1.rsp"
+		],
+		"directory": "E:\\UnrealEngine\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\Source\\UnrealProject2D\\UnrealProject2D.cpp",
+		"arguments": [
+			"E:\\Visual3\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\.vscode\\compileCommands_UnrealProject2D\\UnrealProject2D.1.rsp"
+		],
+		"directory": "E:\\UnrealEngine\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\Source\\UnrealProject2D\\UnrealProject2D.h",
+		"arguments": [
+			"E:\\Visual3\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\.vscode\\compileCommands_UnrealProject2D\\UnrealProject2D.1.rsp"
+		],
+		"directory": "E:\\UnrealEngine\\UE_5.3\\Engine\\Source"
+	}
+]

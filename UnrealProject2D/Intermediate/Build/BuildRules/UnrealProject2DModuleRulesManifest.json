@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\Source\\UnrealProject2D\\UnrealProject2D.Build.cs",
+		"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\Source\\UnrealProject2D.Target.cs",
+		"E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\Source\\UnrealProject2DEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.1"
+}

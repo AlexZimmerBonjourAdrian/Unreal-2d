@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "UnrealProject2DEditor Editor Win64 Development (UnrealProject2D)",
+            "compilerPath": "E:\\Visual3\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\.vscode\\compileCommands_UnrealProject2D.json"
+        },
+        {
+            "name": "Win32",
+            "compilerPath": "E:\\Visual3\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "E:\\Github\\ToLearnUnrealCPlusPlus\\UnrealProject2D\\.vscode\\compileCommands_Default.json"
+        }
+    ],
+    "version": 4
+}

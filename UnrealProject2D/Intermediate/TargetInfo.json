@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnrealProject2D",
+			"Path": "..\\Source\\UnrealProject2D.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnrealProject2DEditor",
+			"Path": "..\\Source\\UnrealProject2DEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
