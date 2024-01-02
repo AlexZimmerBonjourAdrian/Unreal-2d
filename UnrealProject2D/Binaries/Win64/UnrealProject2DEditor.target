@@ -12,8 +12,8 @@
 	{
 		"MajorVersion": 5,
 		"MinorVersion": 3,
-		"PatchVersion": 1,
-		"Changelist": 28051148,
+		"PatchVersion": 2,
+		"Changelist": 29314046,
 		"CompatibleChangelist": 27405482,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
@@ -2755,6 +2755,26 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Interchange/Runtime/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/PaperZD/Binaries/Win64/UnrealEditor-PaperZD.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/PaperZD/Binaries/Win64/UnrealEditor-PaperZD.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/PaperZD/Binaries/Win64/UnrealEditor-PaperZDEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/PaperZD/Binaries/Win64/UnrealEditor-PaperZDEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/PaperZD/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -24505,6 +24525,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Interchange/Runtime/Interchange.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/PaperZD/PaperZD.uplugin",
 			"Type": "UFS"
 		},
 		{

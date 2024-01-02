@@ -34,9 +34,9 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
-"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
-"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealProject2D\UnrealProject2D.cpp.obj"
-"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealProject2D\Default.rc2.res"
+"E:\Github\Unreal-2d\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"E:\Github\Unreal-2d\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealProject2D\UnrealProject2D.cpp.obj"
+"E:\Github\Unreal-2d\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealProject2D\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
@@ -66,7 +66,7 @@
 "synchronization.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Binaries\Win64\UnrealEditor-UnrealProject2D.dll"
-/IMPLIB:"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealProject2D\UnrealEditor-UnrealProject2D.sup.lib"
-/PDB:"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Binaries\Win64\UnrealEditor-UnrealProject2D.pdb"
+/OUT:"E:\Github\Unreal-2d\UnrealProject2D\Binaries\Win64\UnrealEditor-UnrealProject2D.dll"
+/IMPLIB:"E:\Github\Unreal-2d\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealProject2D\UnrealEditor-UnrealProject2D.sup.lib"
+/PDB:"E:\Github\Unreal-2d\UnrealProject2D\Binaries\Win64\UnrealEditor-UnrealProject2D.pdb"
 /ignore:4078

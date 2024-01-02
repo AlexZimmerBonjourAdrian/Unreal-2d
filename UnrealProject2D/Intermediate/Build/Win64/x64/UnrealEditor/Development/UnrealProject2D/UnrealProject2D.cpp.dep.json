@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "e:\\github\\tolearnunrealcplusplus\\unrealproject2d\\source\\unrealproject2d\\unrealproject2d.cpp",
+        "Source": "e:\\github\\unreal-2d\\unrealproject2d\\source\\unrealproject2d\\unrealproject2d.cpp",
         "ProvidedModule": "",
-        "PCH": "e:\\github\\tolearnunrealcplusplus\\unrealproject2d\\intermediate\\build\\win64\\x64\\unrealproject2deditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "PCH": "e:\\github\\unreal-2d\\unrealproject2d\\intermediate\\build\\win64\\x64\\unrealproject2deditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
         "Includes": [
-            "e:\\github\\tolearnunrealcplusplus\\unrealproject2d\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealproject2d\\definitions.unrealproject2d.h",
-            "e:\\github\\tolearnunrealcplusplus\\unrealproject2d\\source\\unrealproject2d\\unrealproject2d.h"
+            "e:\\github\\unreal-2d\\unrealproject2d\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealproject2d\\definitions.unrealproject2d.h",
+            "e:\\github\\unreal-2d\\unrealproject2d\\source\\unrealproject2d\\unrealproject2d.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

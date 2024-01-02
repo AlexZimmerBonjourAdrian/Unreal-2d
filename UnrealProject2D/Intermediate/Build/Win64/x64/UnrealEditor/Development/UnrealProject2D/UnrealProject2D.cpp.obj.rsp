@@ -1,11 +1,11 @@
-"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Source\UnrealProject2D\UnrealProject2D.cpp"
-/FI"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Engine\SharedPCH.Engine.Cpp20.h"
-/FI"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealProject2D\Definitions.UnrealProject2D.h"
-/Yu"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Engine\SharedPCH.Engine.Cpp20.h"
-/Fp"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.pch"
-/Fo"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealProject2D\UnrealProject2D.cpp.obj"
-/sourceDependencies "E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealProject2D\UnrealProject2D.cpp.dep.json"
-@"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealProject2D\UnrealProject2D.Shared.rsp"
+"E:\Github\Unreal-2d\UnrealProject2D\Source\UnrealProject2D\UnrealProject2D.cpp"
+/FI"E:\Github\Unreal-2d\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Engine\SharedPCH.Engine.Cpp20.h"
+/FI"E:\Github\Unreal-2d\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealProject2D\Definitions.UnrealProject2D.h"
+/Yu"E:\Github\Unreal-2d\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Engine\SharedPCH.Engine.Cpp20.h"
+/Fp"E:\Github\Unreal-2d\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.pch"
+/Fo"E:\Github\Unreal-2d\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealProject2D\UnrealProject2D.cpp.obj"
+/sourceDependencies "E:\Github\Unreal-2d\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealProject2D\UnrealProject2D.cpp.dep.json"
+@"E:\Github\Unreal-2d\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealProject2D\UnrealProject2D.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

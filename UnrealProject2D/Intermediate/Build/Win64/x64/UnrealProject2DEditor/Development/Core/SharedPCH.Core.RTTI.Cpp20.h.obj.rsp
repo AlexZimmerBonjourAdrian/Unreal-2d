@@ -1,4 +1,4 @@
-"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Core\SharedPCH.Core.RTTI.Cpp20.cpp"
+"E:\Github\Unreal-2d\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Core\SharedPCH.Core.RTTI.Cpp20.cpp"
 /I "."
 /I "Runtime\Core\Public"
 /I "Runtime\Core\Internal"
@@ -10,10 +10,10 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/Yc"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Core\SharedPCH.Core.RTTI.Cpp20.h"
-/Fp"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Core\SharedPCH.Core.RTTI.Cpp20.h.pch"
-/Fo"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Core\SharedPCH.Core.RTTI.Cpp20.h.obj"
-/sourceDependencies "E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Core\SharedPCH.Core.RTTI.Cpp20.h.dep.json"
+/Yc"E:\Github\Unreal-2d\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Core\SharedPCH.Core.RTTI.Cpp20.h"
+/Fp"E:\Github\Unreal-2d\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Core\SharedPCH.Core.RTTI.Cpp20.h.pch"
+/Fo"E:\Github\Unreal-2d\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Core\SharedPCH.Core.RTTI.Cpp20.h.obj"
+/sourceDependencies "E:\Github\Unreal-2d\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Core\SharedPCH.Core.RTTI.Cpp20.h.dep.json"
 /Zc:inline
 /nologo
 /Oi

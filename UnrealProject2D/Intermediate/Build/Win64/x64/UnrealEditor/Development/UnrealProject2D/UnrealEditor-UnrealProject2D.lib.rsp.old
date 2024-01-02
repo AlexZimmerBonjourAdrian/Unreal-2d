@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UnrealProject2D.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealProject2DEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealProject2D\UnrealProject2D.cpp.obj"
+"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealProject2D\Default.rc2.res"
+/OUT:"E:\Github\ToLearnUnrealCPlusPlus\UnrealProject2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealProject2D\UnrealEditor-UnrealProject2D.lib"
