@@ -1,0 +1,33 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Maps/Map-to-Mechanics.umap",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Maps/NewMap.umap",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Game-RunAndGun/Character-Work.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Game-RunAndGun/Enemy.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Game-RunAndGun/I_DamageEnemys.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Game-RunAndGun/EN_Enemy_Status.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Maps/TrainingMap_1.umap",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Game-RunAndGun/2DSideScrollerGameMode-2.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Blueprints/Projectile.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Blueprints/Enemies/Enemy.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Game-RunAndGun/SteveTheBadguy1.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Game-RunAndGun/Enemy1.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Game-RunAndGun/DeadlyPotato1.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Game-RunAndGun/Enemy/DeadlyPotato1.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Game-RunAndGun/Enemy/Enemy1.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Game-RunAndGun/Enemy/SteveTheBadguy1.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Game-RunAndGun/Enemy/Enemy-.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Game-RunAndGun/Enemy/Enemy-new.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Game-RunAndGun/Enemy/SteveTheBadguy-New.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Game-RunAndGun/Enemy/DeadlyPotato-New.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Blueprints/MyCharacter.uasset",
+				"E:/Github/Unreal-2d/Unreal2DGameNew/Content/Blueprints/Projectile-2.uasset"
+			]
+		}
+	]
+}
